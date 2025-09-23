@@ -2,7 +2,7 @@
 
 namespace FirstProject.Controllers {
 
-    public class HomeController : Controller {
+    public class HomeController {
 
         public ViewResult Index() {
             int hour = DateTime.Now.Hour;
